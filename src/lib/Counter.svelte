@@ -15,11 +15,12 @@
 		font-family: inherit;
 		font-size: inherit;
 		padding: 1em 2em;
-		color: #2c2c2c;
-		background-color: yellow;
+		color: rgba(55, 65, 81, 1);
+		background-color: rgba(251, 191, 36, 1);
 		border-radius: 2em;
 		outline: none;
 		width: 200px;
 		height: 60px;
 		font-variant-numeric: tabular-nums;
+	}
 </style>
