@@ -2,7 +2,20 @@
 The ultimate SvelteKit starter template which includes configuraion for TailwindCSS, Storybook, TypeScript, Sass and more!
 
 # Usage
-- Use the template using github or do [manual download](https://github.com/tejasag/sveltetron-9000#Manual-installation) 
+- Use the template using github or clone the repository
+```
+git clone https://github.com/tejasag/sveltetron-9000
+```
+
+- Install the libraries
+```js
+// with yarn
+yarn 
+// or with npm
+npm i
+// or with pnpm
+pnpm install
+```
 
 - To run the Svelte server
 ```js
@@ -16,22 +29,6 @@ npm run dev
 yarn storybook
 // or
 npm run storybook
-```
-
-## Manual Installation
-- Clone the repository
-```
-git clone https://github.com/tejasag/sveltetron-9000
-```
-
-- Install the libraries
-```js
-// with yarn
-yarn 
-// or with npm
-npm i
-// or with pnpm
-pnpm install
 ```
 
 ## Having troubles?
