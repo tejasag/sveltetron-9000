@@ -1,5 +1,10 @@
-# Sveltetron 9000
-The ultimate SvelteKit starter template which includes configuraion for TailwindCSS, Storybook, TypeScript, Sass and more!
+
+The ultimate SvelteKit starter template which includes configuraion for
+- [TailwindCSS](https://tailwindcss.com),
+- [Storybook](https://storybook.js.org),
+- [TypeScript](https://typescriptlang.org/),
+- [Sass](https://sass-lang.com/)
+and more!
 
 # Usage
 - Use the template using github or clone the repository
