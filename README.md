@@ -1,42 +1,40 @@
-# create-svelte
+# Sveltron 9000
+The ultimate SvelteKit starter template which includes configuraion for TailwindCSS, Storybook, TypeScript, Sass and more!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+# Usage
+- Use the template using github or do [manual download](https://github.com/tejasag/sveltetron-9000#Manual-installation) 
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+- To run the Svelte server
+```sh
+yarn dev 
+// or
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+- To run the Storybook server
+```sh
+yarn storybook
+// or
+npm run storybook
+```
 
-Svelte apps are built with _adapters_, which optimise your project for deployment to different environments.
+## Manual Installation
+- Clone the repository
+```sh
+git clone https://github.com/tejasag/sveltetron-9000
+```
 
-By default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, add it to the `devDependencies` in `package.json` making sure to specify the version as `next` and update your `svelte.config.cjs` to [specify your chosen adapter](https://kit.svelte.dev/docs#configuration-adapter). The following official adapters are available:
+- Install the libraries
+```sh
+// with yarn
+yarn 
+// or with npm
+npm i
+// or with pnpm
+pnpm install
+```
 
-- [@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node)
-- [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-- [@sveltejs/adapter-netlify](https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify)
-- [@sveltejs/adapter-vercel](https://github.com/sveltejs/kit/tree/master/packages/adapter-vercel)
-- ...more soon
+## Having troubles?
+Open an issue and I'll try to help as soon as I can!
 
-[See the adapter documentation for more detail](https://kit.svelte.dev/docs#adapters)
+Copyright 2021-present Tejas Agarwal
