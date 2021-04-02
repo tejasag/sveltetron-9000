@@ -20,7 +20,7 @@ npm run storybook
 
 ## Manual Installation
 - Clone the repository
-```js
+```
 git clone https://github.com/tejasag/sveltetron-9000
 ```
 
