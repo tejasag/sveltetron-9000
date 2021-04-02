@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/67542663/113436983-68438400-9403-11eb-928f-659073d600de.png)
 
 The ultimate SvelteKit starter template which includes configuraion for
 - [TailwindCSS](https://tailwindcss.com),
