@@ -2,4 +2,6 @@
 	import '../app.scss';
 </script>
 
-<slot />
+<div class="_svelte-kit">
+	<slot />
+</div>
